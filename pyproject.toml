@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyweb-hw10"
+version = "0.1.1"
+description = ""
+authors = ["Valekantina <vgordynska@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyweb_hw10"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
